@@ -85,7 +85,7 @@ const Events = () => {
   ];
 
   return (
-    <Box sx={styles.section}>
+    <Box sx={styles.section} id='events'>
       <Container maxWidth="lg">
         <Typography variant="h2" sx={styles.sectionTitle}>
           Upcoming Events

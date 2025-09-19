@@ -35,7 +35,7 @@ const Party = () => {
   ];
 
   return (
-    <Box sx={styles.section}>
+    <Box sx={styles.section} id='party'>
       <Container maxWidth="lg">
         <Typography variant="h2" sx={styles.sectionTitle}>
           Our Democratic Party

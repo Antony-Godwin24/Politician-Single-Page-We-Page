@@ -5,6 +5,9 @@ const styles = {
     position: 'fixed',
     zIndex: 1000,
     width: '100%',
+    justifyContent:'center',
+    alignItems:'center',
+    height:'98px'
   },
 
   toolbar: {

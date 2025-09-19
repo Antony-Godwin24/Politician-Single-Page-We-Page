@@ -14,7 +14,7 @@ import styles from './style';
 
 const Hero = () => {
   return (
-    <Box sx={styles.heroSection}>
+    <Box sx={{...styles.heroSection,marginTop:'0'}} id='home'>
       <Container maxWidth="lg">
         <Grid container spacing={4} alignItems="center">
           <Grid item xs={12} md={6}>
