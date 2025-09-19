@@ -16,8 +16,8 @@ const NavBar = () => {
    <AppBar position="static" sx={{ ...styles.appBar, marginBottom: '0' }}>
   <Container maxWidth="lg">
     <Toolbar sx={styles.toolbar}>
-      <Typography variant="h6" sx={styles.logo}>
-        John Senator
+      <Typography variant="h6" sx={styles.logo}><Flag />
+       <span sx={{paddingLeft:'2'}}>John Senator</span> 
       </Typography>
       <Box sx={styles.navButtons}>
         <Button
